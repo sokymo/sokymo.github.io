@@ -1,0 +1,279 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*main css styling that is common across all pages. Contains elements that are used throughout multiple pages.
+Don't put any elements that only belong on a single page here! */
+
+@font-face {
+  font-family: universlight;
+  src: url('../fonts/UniversLTStd-Light.otf');
+}
+
+@font-face {
+  font-family: univers;
+  src: url('../fonts/UniversLTStd.otf');
+}
+
+@font-face {
+  font-family: universbold;
+  src: url('../fonts/UniversLTStd-Bold.otf');
+}
+
+a, a:visited, a:active{
+  color:white;
+  text-decoration:none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+a:hover {
+  color:#656B76;
+}
+
+p { 
+  line-height: 1.5em;
+  letter-spacing: 1.5px;
+} 
+
+body {
+  font-family: universlight, sans-serif;
+  font-size:0.9em;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  color:white;
+  background:#1D1E1D;
+  margin:0;
+  height:100%;
+}
+
+h1{
+  margin-top:4rem;
+  font-weight:lighter;
+  font-size:1.2em;
+}
+
+hr {
+  margin-left:0;
+  margin-top:2rem;
+  margin-bottom:2.5rem;
+  color:white;
+  width:5rem;
+}
+
+hr.heroline {
+  display:block;
+  margin-left:0rem;
+  margin-top: 0rem;
+  margin-bottom: 1.7rem;
+  width: 10%;
+  border-color:#D7DF21;
+  transform: translate(448%, 0%);
+}
+
+ul
+{
+  margin-top:2rem;
+  margin-left: 1rem;
+  padding:0;
+  
+}
+
+li {
+  line-height: 1.5em;
+  letter-spacing: 1.5px;
+}
+
+input {
+  width:100%;
+  height:4rem;
+  padding:2rem 2rem;
+  color:white;
+  letter-spacing: 1.5px;
+  font-size:1em;
+  background:#0D0D0E;
+  border: 1px solid white;
+}
+
+::-webkit-input-placeholder {
+ color: white;
+ letter-spacing:3px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+ color: white;  
+ letter-spacing:3px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+ color: white;  
+ letter-spacing:3px;
+}
+
+:-ms-input-placeholder {  
+ color: white;  
+ letter-spacing:3px;
+}
+
+.forminput{
+  margin-bottom:1.5rem;
+}
+
+.submitbutton{
+  padding:1.5rem 0rem;
+  margin-bottom:2rem;
+  border:1px solid white;
+  text-transform: uppercase;
+  letter-spacing:3px;
+  background:none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-align: center;
+}
+
+.submitbutton:hover {
+  color:white;
+  background:#A9A9A9;
+  border:1px solid white;
+}
+
+.herocontent {
+  display:block;
+  margin:auto;
+  width: 50%;
+}
+
+.herotext{
+  font-size: 1.5rem;
+}
+
+.nextline {
+  display:block;
+}
+
+
+/*sections*/
+
+#header {
+  padding-left:10rem;
+  padding-right:10rem;
+}
+
+#content {
+  padding-left:10rem;
+  padding-right:10rem;
+}
+
+#footer {
+}
+
+
+/*header classes*/
+
+.logo{
+  width:100%;
+  height:50px;
+  padding: 1rem 0;
+  float:left;
+}
+
+.topnavwrapper{
+  width:100%;
+  height:50px;
+  padding-top:30px;
+  text-align:right;
+}
+
+.topnavlink{
+  padding-left: 4rem;
+  font-size:0.8em;
+}
+
+.topiconwrapper {
+  display:inline;
+}
+
+.currentpage{
+  padding-bottom:0.3rem;
+  border-bottom: 2px solid #D7DF21;
+}
+
+.heroimage{
+  width:100%;
+  height:100%;
+}
+
+.hero {
+  position:absolute;
+  top:100px;
+  width:100%;
+  height:32.35rem;
+}
+
+.heroempty{
+  width:100%;
+  height:5rem;
+}
+
+
+
+
+
+/*footer classes*/
+
+.footerarea{
+  margin:-5rem -1.1rem;
+  width:auto;
+  margin-right:-1rem;
+  height:31rem;
+  font-size:1.2em;
+  margin-top:2rem;
+  background:#000;
+  color:white;
+}
+
+.footermainwrapper{
+  width:90%;
+  height:7rem;
+  margin-top:2rem;
+  margin-left:5%;
+  padding:2.8rem;
+  font-size:1em;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  color:white;
+  text-align:center;
+}
+
+.footermaintext{
+  padding:0 3rem;
+}
+
+.footericons {
+  width:100%;
+  height:7rem;
+  padding:2rem;
+  text-align:center;
+}
+
+.icons {
+  padding:0 5px;
+}
+
+.footercopyright {
+  width:100%;
+  height:4rem;
+  text-align:center;
+}
+
+.footerprojectinfo {
+  width:100%;
+  height:3rem;
+  padding-top:1rem;
+  font-size:0.9em;
+  color:#AAA;
+  text-align:center;
+}
+

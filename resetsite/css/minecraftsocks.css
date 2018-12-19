@@ -1,0 +1,168 @@
+/*merchandise css page*/
+p.itemdetails{
+  margin-top:0;
+  margin-bottom:0;
+}
+
+p.spacing{
+  margin-bottom:11rem;
+}
+
+
+h1.walletheading{
+  display:block;
+  width:70%;
+  margin-top:3rem;
+  font-family:universbold;
+  font-size:2em;
+  color:#D7DF21;
+}
+
+h2{
+  margin-top:4rem;
+  font-weight:lighter;
+  font-size:1.2em;
+}
+
+ul.ulwallet{
+  margin-bottom:2rem;
+}
+
+.price {
+  font-size:1.2em;
+  font-weight:bold;
+  text-align:left;
+}
+
+.filterempty{
+  width:100%;
+  height:5rem;
+  float:left;
+  margin-top:3rem;
+  color:white;
+}
+
+.productlistingmain{
+  width:100%;
+  height:auto;
+  float:left;
+  margin-top:5rem;
+  color:white;
+}
+
+.iteminfo{
+  float:left;
+  width:100%;
+  height:auto;
+  margin-top:5rem;
+  margin-left:2rem;
+  margin-right:2rem;
+  color:white;
+}
+
+.productlisting{
+  width:100%;
+  height:auto;
+  float:left;
+  margin-top:0.2rem;
+  color:white;
+}
+
+.productimagewallet {
+  width:49.5%;
+  height:100%;
+}
+
+.productimagemain {
+  width:100%;
+  height:auto;
+}
+
+.flexcontainer {
+  display:flex;
+  min-width:700px;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+.productbackgroundwrapper {
+  position:absolute;
+  top:100px;
+  width:100%;
+  height:72rem;
+  background:#0D0D0D;
+  z-index:-1;
+}
+
+.productbackgroundwraptest {
+  display:table;
+  top:100px;
+  padding-top:0;
+  margin-left:-10rem;
+  padding-left:10rem;
+  padding-right:10rem;
+  width: calc(100% + 20rem);
+  height:100%;
+  background:#0D0D0D;
+  z-index:-1;
+}
+
+.buttons {
+  width:100%;
+  height:4rem;
+  margin-bottom:2rem;
+  padding:1.5rem 2rem;
+  text-align:center;
+  border: 1px solid white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.buttons:hover {
+  color:#868A92;
+  border:1px solid #868A92;
+}
+
+.buttonwrapper {
+  margin-top:20%;
+}
+
+.seemore {
+  text-align:right;
+  margin-top:7.5rem;
+}
+
+.reviewsheading {
+  margin-top:7.5rem;
+}
+
+.reviews{
+  float:left;
+  width:100%;
+  height:300px;
+  padding:2rem 3rem;
+  color:white;
+  letter-spacing: 1.5px;
+  background:#0D0D0E;
+}
+
+.reviewform{
+  float:left;
+  width:100%;
+  height:300px;
+  margin-bottom:3rem;
+  color:white;
+  letter-spacing: 1.5px;
+}
+
+textarea#comments {
+  width:100%;
+  height:100%;
+  padding:2rem 2rem;
+  font-family: universlight, sans-serif;
+  font-size:1em;
+  color:white;
+  letter-spacing: 1.5px;
+  background:#0D0D0E;
+  border: 1px solid white;
+}

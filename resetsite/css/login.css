@@ -1,0 +1,49 @@
+/*login css page*/
+
+.productbackgroundwrapper {
+  position:absolute;
+  top:100px;
+  width:100%;
+  height:67rem;
+  background:#0D0D0D;
+  z-index:-1;
+}
+
+.buttons {
+  width:100%;
+  height:4rem;
+  margin-bottom:2rem;
+  padding:1.5rem 2rem;
+  text-align:center;
+  border: 1px solid white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.buttons:hover {
+  color:#868A92;
+  border:1px solid #868A92;
+}
+
+.continue {
+  background:#000;
+}
+
+.reviewform{
+  float:left;
+  width:100%;
+  height:300px;
+  margin-top:.7rem;
+  margin-bottom:3rem;
+  color:white;
+  letter-spacing: 1.5px;
+}
+
+.login {
+  background:none;
+}
+
+hr.hrheading {
+  margin-left:0rem;
+  border-color:#D7DF21;
+}

@@ -1,0 +1,102 @@
+/*login css page*/
+
+.productbackgroundwrapper {
+  position:absolute;
+  top:100px;
+  width:100%;
+  height:68rem;
+  background:#0D0D0D;
+  z-index:-1;
+}
+
+.radiobutton {
+  width:1rem;
+  height:0.8rem;
+  margin:0;
+  margin-right:1rem;
+  padding:2rem 0;
+}
+
+.block {
+  display:block;
+  margin-bottom:2rem;
+}
+
+input.shipping {
+  height:3rem;
+  padding:1rem 1rem;
+  margin-bottom:0.8rem;
+  background:none;
+}
+
+input.shipping2 {
+  width:40%;
+  height:3rem;
+  padding:1rem 1rem;
+  margin-bottom:0.8rem;
+  background:none;
+}
+
+input.shipping3 {
+  width:37%;
+  height:3rem;
+  padding:1rem 1rem;
+  margin-bottom:0.8rem;
+  background:none;
+}
+
+::-webkit-input-placeholder {
+ color: white;
+ letter-spacing:2px;
+}
+
+.province {
+  width:20%;
+  height:3rem;
+  padding:0.5rem 0.5rem;
+  color:white;
+  letter-spacing: 1.5px;
+  font-size:1em;
+  background:#0D0D0E;
+  border: 1px solid white;
+}
+
+.paypal {
+  display:block;
+  margin:auto;
+  margin-bottom:1rem;
+  width:50%;
+}
+
+.paypalwrapper {
+  text-align:center;
+  margin-top:2rem;
+}
+
+.cancel {
+  margin-top:1rem;
+}
+
+.buttons:hover {
+  color:#868A92;
+  border:1px solid #868A92;
+}
+
+.reviewform{
+  float:left;
+  width:100%;
+  height:300px;
+  margin-top:.7rem;
+  margin-bottom:3rem;
+  color:white;
+  letter-spacing: 1.5px;
+}
+
+.login {
+  background:none;
+}
+
+hr.hrheading {
+  margin-left:0rem;
+  border-color:#D7DF21;
+}

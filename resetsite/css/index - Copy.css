@@ -1,0 +1,219 @@
+
+/*index css page*/
+
+.seemore {
+	text-align:right;
+}
+
+.productlisting{
+  width:100%;
+  max-height:350px;
+  height:auto;
+  float:left;
+  margin-top:-1rem;
+  margin-bottom:3rem;
+  color:white;
+}
+
+.productimage {
+  width:100%;
+  height:100%;
+}
+
+.adwrapper {
+  margin-left:-11rem;
+  margin-right:5rem;
+}
+
+.test {
+  width: 100%;
+    height: 400px;
+    background-image: url('../images/league.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.adwrapper2 {
+  margin-left:-5rem;
+  margin-right:-11rem;
+}
+
+.advertisement {
+  width:100%;
+  height:auto;
+}
+
+.heroheight {
+  height:5rem;
+}
+
+.index_cover {
+  position: relative;
+  background-image: url("../images/minecraftwall.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height:1em;
+  margin: 0px;
+  top: 100px;
+  text-align: center;
+
+  padding-top: 8em;
+  padding-bottom:28em;
+}
+
+.white{
+  color:white !important;
+  font-weight: bold;
+}
+
+
+
+/*---------BESTSELLERS---------*/
+
+
+#best_steve {
+  position: relative;
+  background-image: url("../images/stevehead.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+}
+
+
+#best_wallet {
+  position: relative;
+  background-image: url("../images/wallet_zoom.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+}
+
+#best_overwatch {
+  position: relative;
+  background-image: url("../images/overwatchsweater.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+}
+
+
+/*---------BESTSELLERS---------*/
+
+
+
+/*---------SHOP BY GAME---------*/
+
+
+#game_league {
+  position: relative;
+  background-image: url("../images/leaguetype.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+}
+
+
+#game_witcher {
+  position: relative;
+  background-image: url("../images/thewitcher.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+}
+
+#game_minecraft {
+  position: relative;
+  background-image: url("../images/minecraft.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+}
+
+#game_overwatch {
+  position: relative;
+  background-image: url("../images/overwatch.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+}
+
+#game_portal2 {
+  position: relative;
+  background-image: url("../images/portal2.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+}
+
+
+#game_wow {
+  position: relative;
+  background-image: url("../images/wow.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+}
+
+
+/*---------SHOP BY GAME---------*/
+
+
+
+.event_container{
+  background-color: rgba(254, 254, 254, 0.0);
+  height: 100%;
+  width: 100%;
+}
+
+.event_container:hover{
+  background-color: rgba(254, 254, 254, 0.15);
+}
+
+.text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+/*  font-weight: bold;*/
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 15px;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+
+
+
+

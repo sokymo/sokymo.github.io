@@ -1,0 +1,580 @@
+
+/*header and footer media queries - same across all pages*/
+
+@media (max-width:1550px){
+
+ .footermaintext{
+  padding:0 1.5rem;
+}
+
+}
+
+@media (max-width:1450px){
+  #header {
+  padding-left:5rem;
+  padding-right:5rem;
+}
+
+#content {
+  padding-left:5rem;
+  padding-right:5rem;
+}
+
+.adwrapper {
+  margin-left:-6rem;
+}
+
+.adwrapper2 {
+  margin-right:-6rem;
+}
+
+}
+
+@media (max-width:1255px){
+
+ .footermainwrapper{
+  padding-left:0;
+  padding-right:0;
+  font-size:0.9em;
+}
+
+#header {
+  padding-left:2rem;
+  padding-right:2rem;
+}
+
+#content {
+  padding-left:2rem;
+  padding-right:2rem;
+}
+
+.adwrapper {
+  margin-left:-3rem;
+}
+
+.adwrapper2 {
+  margin-right:-3rem;
+}
+
+}
+
+@media (max-width:1080px){
+
+  .col-1of9{
+    width:100%;
+  }
+
+  .col-8of9{
+    width:100%;
+  }
+
+  #header {
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+
+  .topnavwrapper{
+    padding-top:40px;
+    text-align:center;
+  }
+
+  .logo{
+    text-align:center;
+  }
+
+  .topnavlink{
+    padding: 0 1rem;
+  }
+
+  .heroempty {
+    height:15em;
+  }
+
+  .footerarea{
+    height:37rem;
+  }
+
+  .footermainwrapper{
+    font-size:1em;
+    height:12rem;
+  }
+
+  .footerlinkresize {
+    display:block;
+  }
+
+  .contact_cover, .events_cover, .merch_cover, .index_cover {
+    top:250px;
+  }
+
+}
+
+@media (max-width:768px){
+
+  .heroempty {
+    height:16em;
+  }
+
+
+  #header {
+    padding-left:0rem;
+    padding-right:0rem;
+  }
+
+  .adwrapper {
+  margin-left:-1rem;
+  margin-right:0;
+}
+
+.adwrapper2 {
+  margin-right:-1rem;
+  margin-left:0;
+}
+
+.adcol.col-4of9, .adcol.col-5of9 {
+  width:50%;
+}
+
+  .topnavlink{
+    font-size:1em;
+    padding: 0rem 0.8rem;
+  }
+
+  .topiconwrapper {
+    margin-top:40px;
+    display:block;
+  }
+
+}
+
+@media (max-width:414px){
+  .merch_cover, .contact_cover, .index_cover, .events_cover{
+    padding-bottom:19em;
+  }
+
+  .buttonsevent {
+    display:none;
+  }
+
+  .adwrapper {
+  margin-left:-1rem;
+  margin-right:-1rem;
+}
+
+.adwrapper2 {
+  margin-right:-1rem;
+  margin-left:-1rem;
+}
+
+  .adcol.col-4of9, .adcol.col-5of9 {
+  width:100%;
+}
+}
+
+/*body content media queries*/
+
+@media (max-width:1550px){
+
+  .productbackgroundwrapper {
+    height:62rem;
+  }
+
+  .cart.productbackgroundwrapper {
+    height:90rem;
+  }
+
+  /*payment page*/
+
+  .payment.col-9of9{
+    margin-top:6rem;
+  }
+
+}
+
+@media (max-width:1255px){
+
+  .col-2of9{
+    width:100%;
+  }
+
+  .removeempty2{
+    display:none;
+  }
+
+  .nextpage{
+    height:0rem;
+    margin-top:-5rem;
+  }
+
+  /*wallet page*/
+
+  h1.walletheading{
+    width:90%;
+    font-size:1.5em;
+  }
+
+  .iteminfo{
+    max-height:460px;
+    margin-top:2rem;
+  }
+
+  .reviews{
+    padding:2rem 2rem;
+  }
+
+  .productbackgroundwrapper {
+    height:60rem;
+  }
+
+  /*cart page*/
+
+  .cartcol.col-3of9, .cartcol.col-2of9 {
+    width:25%;
+  }
+
+  .cartcol.col-3of9.hidden {
+    width:25%;
+  }
+
+  .codecol.col-2of9 {
+    width:25%;
+  }
+
+  .subtotalmodule {
+  }
+
+}
+
+@media (max-width:1080px){
+
+  .col-3of9 {
+    width:50%;
+  }
+
+  .col-6of9{
+    width:50%;
+  }
+
+  #content {
+    padding-left:3rem;
+    padding-right:3rem;
+  }
+
+  .removeempty{
+    display:none;
+  }
+
+  .game.col-5of9{
+    width:51%;
+  }
+
+  .seemorecol3.col-3of9{
+    width:49%;
+  }
+
+  /*wallet page*/
+
+  .mainwalletimage.col-6of9 {
+    width:100%;
+  }
+
+  .walletinfo.col-3of9 {
+    width:100%;
+  }
+
+  .buttonscol.col-3of9 {
+    width:100%;
+  }
+
+  .productlisting {
+    margin-bottom:2rem;
+  }
+
+  .seemore, .reviewsheading {
+    margin-top:4rem;
+  }
+
+  /*login page*/
+
+  .logincol.col-3of9 {
+    margin-top:5rem;
+    width:100%;
+  }
+
+  .loginreview.reviewform {
+    margin-top:2rem;
+  }
+
+  .login {
+    text-align:center;
+  }
+
+  .loginbg.productbackgroundwrapper {
+    top:210px;
+    height:60rem;
+  }
+
+  .mainwalletimage.col-6of9 {
+    margin-top:3rem;
+  }
+
+  .productbackgroundwrapper {
+    top:210px;
+    height:124rem;
+  }
+
+  /*cart page*/
+
+  .colwrapper.col-9of9 {
+    margin-top:4rem;
+   }
+
+}
+
+@media (max-width:768px){
+
+  #content {
+    padding-left:0rem;
+    padding-right:0rem;
+  }
+
+  /*index page*/
+
+  .index_cover {
+    top:250px;
+  }
+
+  /*merch page*/
+
+  .merch_cover {
+    top:250px;
+  }
+
+  .heroheight {
+    height:13rem;
+  }
+
+  /*eventpage*/
+
+  .buttonsevent {
+    width:30%;
+  }
+
+  /*wallet page*/
+
+  .productlistingmain{
+    margin-top:5rem;
+  }
+
+  .mainwalletimage.col-6of9 {
+    margin-top:5rem;
+  }
+
+  .productbackgroundwrapper {
+    top:250px;
+    height:111rem;
+  }
+
+  .loginbg.productbackgroundwrapper {
+    top:250px;
+    height:111rem;
+  }
+
+  /*about page*/
+
+  .aboutcol.col-3of9 {
+    width:100%;
+  }
+
+  .contactform {
+    margin-bottom:-3.5rem;
+  }
+
+  .sendcommentscol.col-6of9 {
+    display:none;
+  }
+
+  .herocontent {
+    font-size:1em;
+    width:90%;
+  }
+
+  .herotext {
+    margin-top:0;
+  }
+
+  /*cart page*/
+
+  .colwrapper.col-9of9 {
+    margin-top:10rem;
+   }
+
+
+  .cartheading {
+    margin-top:0rem;
+  }
+
+  .cartcol.col-3of9, .cartcol.col-2of9 {
+    width:33.3%;
+  }
+
+  .cartcol.col-2of9.hidden, .cartcol.col-3of9.hidden {
+    display:none;
+  }
+
+  .codecol.col-2of9 {
+    float:right;
+    width:50%;
+  }
+
+  .coupon, .codebutton {
+    float:left;
+    width:100%;
+  }
+
+
+/*login, about, and myaccount page*/
+
+h1.h1login{
+  margin-top:4rem;
+}
+
+.reviewform.loginreview {
+  margin-top:2rem;
+}
+
+/*payment page*/
+
+  .paypal{
+    width:30%;
+  }
+
+  .payment.col-9of9{
+    margin-top:3rem;
+  }
+
+}
+
+@media (max-width:414px){
+
+  .col-3of9{
+    width:100%;
+  }
+
+  .filter{
+    margin-bottom:-3rem;
+  }
+
+  .herocontent {
+    font-size:0.9em;
+    width:90%;
+  }
+
+
+  /*merch page*/
+
+  .buttonsevent {
+    width:50%;
+  }
+
+  /*wallet page*/
+
+  .iteminfo{
+    max-height:510px;
+    margin-top:0rem;
+    margin-left:0rem;
+    margin-right:0rem;
+  }
+
+  .flexcontainer {
+    min-width:290px;
+  }
+
+  .productimagewallet {
+    width:48.5%;
+  }
+
+  .productbackgroundwrapper {
+    top:250px;
+    height:82rem;
+  }
+
+  .loginbg.productbackgroundwrapper {
+    top:250px;
+    height:82rem;
+  }
+
+  .seemore, .reviewsheading {
+    margin-top:5rem;
+  }
+
+   /*cart page*/
+
+  .cartcol.col-3of9, .cartcol.col-2of9 {
+    width:100%;
+  }
+
+  .cartcol.col-2of9.hidden, .cartcol.col-3of9.hidden {
+    display:none;
+  }
+
+  .cartcol.col-2of9.sub, .cartcol.col-3of9.sub {
+    display:none;
+  }
+
+  .first.cart.separator {
+    display:none;
+  }
+
+  .cartproductlisting {
+    margin-top:1rem;
+    margin-bottom:0rem;
+    min-width:100%;
+  }
+
+  .cartcol.col-2of9 {
+    width:100%;
+  }
+
+  .cartmodules {
+    margin-top:0rem;
+  }
+
+  .quantity {
+    width:50%;
+    margin-bottom:2rem;
+  }
+
+  .codebutton {
+    padding-top:1rem;
+  }
+
+  .codecol.col-2of9.pay {
+    width:100%;
+  }
+
+  .subtotalmodule.sub {
+    text-align:center;
+  }
+
+  /*payment page*/
+
+  .paypal{
+    width:50%;
+  }
+
+  input.shipping2 {
+    width:36%;
+  }
+
+  input.shipping3 {
+    width:40%;
+    font-size:0.8em;
+  }
+
+  ::-webkit-input-placeholder {
+ color: white;
+ letter-spacing:1px;
+}
+
+}

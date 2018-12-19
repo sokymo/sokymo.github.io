@@ -1,0 +1,121 @@
+/*about css page*/
+
+
+.filterempty{
+  width:100%;
+  height:5rem;
+  margin-top:3rem;
+  color:white;
+}
+
+p.contactus {
+  margin-top:0rem;
+}
+
+/*.contact-cover{
+  position: relative;
+  background-image: url("../images/hero-about.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height:400px;
+  margin: 0px;
+
+  padding-top: 8em;
+  padding-bottom:18em;
+
+
+}*/
+
+.contact_cover {
+  position: relative;
+  background-image: url("../images/hero_about_overlay.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height:1em;
+  margin: 0px;
+  top: 100px;
+  text-align: center;
+
+  padding-top: 8em;
+  padding-bottom:28em;
+}
+
+.white{
+  color:white !important;
+  font-weight: bold;
+}
+
+.contact_us{
+  width: 100%;
+  background-color: black;
+  height: 40px;
+  color: white;
+  font-size: .9em;
+}
+
+.message_form{
+  width: 100%;
+  background-color: black;
+  height: 157px;
+  color: white;
+  font-size: 1em;
+  padding: 2rem;
+  padding-bottom: 50px;
+  border: 1px solid white;
+  letter-spacing: 1.5px;
+}
+
+/*.cf_button{
+    display: inline-block;
+    height: 65px;
+    text-align: center;
+    padding-top: 26px;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    border: 1px solid white;
+    font-size: .9em;
+    background-color: #1D1E1D;
+    border-color: white;
+    text-decoration: none;
+    -webkit-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+  } 
+/*
+.cf_button:active, .cf_button:hover, .cf_button:focus {
+    color: black;
+    background-color: white;
+}*/
+
+.contactform{
+  float:left;
+  width:100%;
+  height:300px;
+  margin-bottom:3rem;
+  color:white;
+  letter-spacing: 1.5px;
+}
+
+hr.hrheading {
+  margin-left:0rem;
+  border-color:#D7DF21;
+}
+
+textarea#comments {
+  width:100%;
+  height:9.8rem;
+  padding:2rem 2rem;
+  margin-bottom:1.2rem;
+  font-family: universlight, sans-serif;
+  font-size:1em;
+  color:white;
+  letter-spacing: 1.5px;
+  background:#0D0D0E;
+  border: 1px solid white;
+}

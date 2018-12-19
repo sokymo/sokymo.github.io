@@ -1,0 +1,465 @@
+/*
+  STYLE GUIDE STYLING  
+  Default styling for the style guide 
+*/
+
+
+
+@font-face {
+  font-family: universlight;
+  src: url('../fonts/UniversLTStd-Light.otf');
+}
+
+@font-face {
+  font-family: univers;
+  src: url('../fonts/UniversLTStd.otf');
+}
+
+@font-face {
+  font-family: universbold;
+  src: url('../fonts/UniversLTStd-Bold.otf');
+}
+
+a, a:visited, a:active{
+  color:white;
+  text-decoration:none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+a:hover {
+  color:#656B76;
+}
+
+p { 
+  line-height: 1.5em;
+  letter-spacing: 1.5px;
+} 
+
+body {
+  padding: 2rem;
+  font-family: universlight, sans-serif;
+  font-size:0.9em;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  color:white;
+  background:#1D1E1D;
+  margin:0;
+  height:100%;
+}
+
+h1{
+  margin-top:4rem;
+/*  font-weight:lighter;*/
+  font-weight: bold;
+  font-size:1.2em;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #D7DF21;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  margin-top:2rem;
+  color: white;
+}
+
+hr {
+  margin-left:0;
+  margin-top:2rem;
+  margin-bottom:2.5rem;
+  color:white;
+  width:5rem;
+}
+
+ul
+{
+  margin-top:2rem;
+  margin-left: 1rem;
+  padding:0;
+  
+}
+
+li {
+  line-height: 1.5em;
+  letter-spacing: 1.5px;
+}
+
+input {
+  width:20%;
+  height:4rem;
+  padding:2rem 2rem;
+  color:white;
+  letter-spacing: 1.5px;
+  font-size:1em;
+  background:#0D0D0E;
+  border: 1px solid white;
+}
+
+hr.line {
+  margin-left:0rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 100%;
+  border-color:#D7DF21;
+}
+
+
+.nav-main-item {
+  display: inline-block;
+  color: white;
+  background-color: black;
+  border-color: white;
+  border-radius: .4rem;
+  font-size: .9rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: background-color 0.5s ease-out;
+}
+
+.nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
+  color: 10,200,150;
+  background-color: #D7DF21;
+}
+
+::-webkit-input-placeholder {
+ color: white;
+ letter-spacing:3px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+ color: white;  
+ letter-spacing:3px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+ color: white;  
+ letter-spacing:3px;
+}
+
+:-ms-input-placeholder {  
+ color: white;  
+ letter-spacing:3px;
+}
+
+.forminput{
+  margin-bottom:1.5rem;
+}
+
+code, samp {
+  display: block;
+  background-color: rgb(88,88,88);
+  padding: 0.8rem;
+  margin-top:.7rem;
+}
+
+
+
+/*--------------------*/
+
+
+
+
+
+img {
+  height: auto; 
+  width: auto;
+  max-width: 100%;
+  display: block;
+}
+
+
+
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+
+/* Styling for the navigation button */
+
+.topnavlink{
+  padding-left: 0rem;
+  font-size:0.8em;
+}
+
+.currentpage{
+  padding-bottom:0.3rem;
+  border-bottom: 2px solid #D7DF21;
+}
+
+
+
+/* Styling for in-text link */
+
+.capitalize {
+  text-transform: uppercase;
+}
+
+
+
+/* Styling for the submit/reset button */
+
+.submitbutton{
+  padding:1.5rem 0rem;
+  margin-bottom:2rem;
+  border:1px solid white;
+  text-transform: uppercase;
+  letter-spacing:3px;
+  background:none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-align: center;
+  width:30%;
+  max-width: 270px;
+}
+
+.submitbutton:hover {
+  color:white;
+  background:#A9A9A9;
+  border:1px solid white;
+}
+
+
+/* Styling for text input field and a label */
+
+div.contactform{
+  float:left;
+  width:30%;
+  height:300px;
+  margin-bottom:3rem;
+  color:white;
+  letter-spacing: 1.5px;
+}
+
+.forminput{
+  margin-bottom:1.5rem;
+  text-transform: uppercase;
+}
+
+div.form {
+  margin-bottom: 1rem;
+}
+
+
+
+/*Styling for item thumbnails*/
+
+div.short {
+  height:50px;
+}
+
+
+
+
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+/* Styling for headers */
+
+
+.herotext {
+  font-size: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.site {
+  color: white;
+  font-weight:lighter;
+  font-size:1.2em;
+  text-transform: uppercase;
+}
+
+
+/* Styling for bullet lists */
+
+ul.productinfo{
+  padding-left:.8rem;
+  margin-bottom:2rem;
+}
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+
+/* Styling for main navigation*/
+
+
+.logo{
+  width:100%;
+  height:50px;
+  padding: 1rem 0;
+  float:left;
+}
+
+.topnavwrapper{
+  width:100%;
+  height:50px;
+  padding-top:0px;
+  text-align:left;
+}
+
+.topnavlink{
+  display:inline;
+  padding-left: 4rem;
+  font-size:0.8em;
+}
+
+.topiconwrapper {
+  display:inline-block;
+  
+}
+
+.currentpage{
+  padding-bottom:0.3rem;
+  border-bottom: 2px solid #D7DF21;
+}
+
+
+
+/* Styling for product listing*/
+
+p.itemdetails{
+  margin-top:0;
+  margin-bottom:0;
+}
+
+
+h1.walletheading{
+  display:block;
+  width:70%;
+  margin-top:3rem;
+  font-family:universbold;
+  font-size:2em;
+  color:#D7DF21;
+}
+
+ul.ulwallet{
+  margin-bottom:2rem;
+}
+
+.price {
+  font-size:1.2em;
+  font-weight:bold;
+  text-align:left;
+}
+
+.filterempty{
+  width:100%;
+  height:5rem;
+  float:left;
+  margin-top:3rem;
+  color:white;
+}
+
+.productlistingmain{
+  width:94%;
+  height:auto;
+  float:left;
+  margin-top:5rem;
+  color:white;
+  margin-bottom: 2rem;
+}
+
+.iteminfo{
+  float:left;
+  width:100%;
+  height:auto;
+  margin-top:5rem;
+  margin-left:2rem;
+  margin-right:2rem;
+  color:white;
+}
+
+.productlisting{
+  width:100%;
+  height:auto;
+  float:left;
+  margin-top:1rem;
+  color:white;
+}
+
+.productimagewallet {
+  width:49.5%;
+  height:100%;
+}
+
+.productimagemain {
+  width:100%;
+  height:auto;
+}
+
+.flexcontainer {
+  display:flex;
+  min-width:700px;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+.productbackgroundwrapper {
+  position:absolute;
+  top:100px;
+  width:100%;
+  height:68rem;
+  background:#0D0D0D;
+  z-index:-1;
+}
+
+.productbackgroundwraptest {
+  display:table;
+  top:100px;
+  padding-top:0;
+  margin-left:-10rem;
+  padding-left:10rem;
+  padding-right:10rem;
+  width: calc(100% + 20rem);
+  height:100%;
+  background:#0D0D0D;
+  z-index:-1;
+}
+
+.buttons {
+  width:100%;
+  height:4rem;
+  margin-bottom:2rem;
+  padding:1.5rem 2rem;
+  text-align:center;
+  border: 1px solid white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.buttons:hover {
+  color:#868A92;
+  border:1px solid #868A92;
+}
+
+.buttonwrapper {
+  margin-top:20%;
+}
+
+
+/* Styling for grid columns*/
+
+.fill {
+  background-color: black;
+  border: .5px solid white;
+}
+
+
+
+
+

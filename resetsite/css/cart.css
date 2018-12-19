@@ -1,0 +1,211 @@
+/*cart css page*/
+
+h1.walletheading{
+  display:block;
+  width:100%;
+  margin-top:3rem;
+  font-family:universbold;
+  font-size:2em;
+  color:#D7DF21;
+}
+
+h2{
+  margin-top:4rem;
+  font-weight:lighter;
+  font-size:1.2em;
+}
+
+h1.cartheading {
+  font-family:univers;
+}
+
+hr.hrheading {
+  margin-left:1rem;
+  margin-bottom:0rem;
+  border-color:#D7DF21;
+}
+
+hr.separator{
+  margin-top:1rem;
+  width:100%;
+}
+
+.cartproductlisting{
+  width:80%;
+  min-width:350px;
+  max-height:350px;
+  height:auto;
+  float:left;
+  margin-top:0rem;
+  color:white;
+}
+
+.productlistingempty{
+  width:80%;
+  min-width:350px;
+  max-height:350px;
+  height:auto;
+  float:left;
+  margin-top:0rem;
+  color:white;
+}
+
+.cartmodules{
+  width:100%;
+  max-height:350px;
+  height:auto;
+  float:left;
+  margin-top:13rem;
+  font-size:1.3em;
+  font-family:univers;
+  color:white;
+  text-align:right;
+}
+
+.subtotalmodule{
+  width:100%;
+  max-height:350px;
+  height:auto;
+  float:left;
+  margin-top:1rem;
+  font-size:1.3em;
+  font-family:univers;
+  color:white;
+  text-align:right;
+}
+
+.subtotalmodule.sub{
+  margin-top:3rem;
+}
+
+.productimage {
+  width:100%;
+  height:100%;
+}
+
+.productbackgroundwrapper {
+  position:absolute;
+  top:100px;
+  width:100%;
+  height:90rem;
+  background:#0D0D0D;
+  z-index:-1;
+}
+
+.codebutton {
+  margin-top:-1rem;
+  width:70%;
+  height:4rem;
+  padding:1.5rem 2rem;
+  font-family:universlight;
+  font-size:0.7em;
+  text-align:center;
+  border: 1px solid white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.continue {
+  float:right;
+  margin-top:4rem;
+  width:100%;
+  height:4rem;
+  padding:1.4rem 2rem;
+  font-family:universlight;
+  font-size:1.2em;
+  text-align:center;
+  border: 1px solid white;
+  background:black;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.continue:hover {
+  color:white;
+  background:#A9A9A9;
+  border:1px solid #868A92;
+}
+
+.buttons:hover {
+  color:#868A92;
+  border:1px solid #868A92;
+}
+.buttonsempty {
+  width:100%;
+  height:5rem;
+  margin-bottom:2rem;
+}
+
+.cartsubheading {
+  margin-top:7.5rem;
+  width:100%;
+  margin-bottom:-1rem;
+}
+
+.cartsubheading2 {
+  text-align:right;
+  margin-top:7.5rem;
+  margin-bottom:-1rem;
+}
+
+.quantity {
+  float:right;
+  margin-top:-1rem;
+  width:40%;
+  height:1rem;
+  padding:1rem 2rem;
+  text-align:center;
+  border: 1px solid white;
+  background:none;
+}
+
+.coupon {
+  margin-top:-1rem;
+  width:70%;
+  padding:1rem 0;
+  font-family:universlight;
+  font-size:0.7em;
+  text-align:center;
+  background:none;
+}
+
+.cartitem_container{
+  background-color: rgba(254, 254, 254, 0.0);
+  height: 100%;
+  width: 100%;
+}
+
+#cart_wallet {
+  position: relative;
+  background-image: url("../images/wallet_zoom.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+}
+
+#cart_earrings {
+  position: relative;
+  background-image: url("../images/portalearrings.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+}
+
+.text {
+  position: absolute;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 15px;
+  margin: 0px;
+  background-color:rgba(0, 0, 0, 0.5);
+  z-index: 5;

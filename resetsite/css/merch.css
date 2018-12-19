@@ -1,0 +1,317 @@
+/*merchandise css page*/
+
+.filter{
+  width:100%;
+  height:5rem;
+  float:left;
+  margin-top:3rem;
+  border:2px solid white;
+  color:white;
+}
+
+.filterempty{
+  width:100%;
+  height:5rem;
+  float:left;
+  margin-top:3rem;
+  color:white;
+}
+
+.heroheight {
+  height:5rem;
+}
+
+a.nextpage {
+  font-size:0.8em;
+}
+
+.productlisting{
+  width:100%;
+  max-height:350px;
+  height:auto;
+  float:left;
+  margin-top:3rem;
+  color:white;
+}
+
+.productimage {
+  width:100%;
+  height:100%;
+}
+
+.nextpage{
+  width:100%;
+  height:5rem;
+  text-align:right;
+  font-size:1.3em;
+  margin-top:3rem;
+  color:white;
+}
+
+.merch_cover {
+  position: relative;
+  background-image: url("../images/troopers.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height:1em;
+  margin: 0px;
+  top: 100px;
+  text-align: center;
+
+  padding-top: 8em;
+  padding-bottom:28em;
+}
+
+.white{
+  color:white !important;
+  font-weight: bold;
+}
+
+
+a:visited.current {
+  font-weight:bold;
+  color:black;
+}
+
+.current {
+  font-weight:bold;
+  color:#000;
+}
+
+
+.herotext{
+  font-size: 1.5rem;
+}
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+  width:100%;
+  height:5rem;
+  margin-top:4rem;
+  text-align: left;
+  padding-left: 25px;
+  color:white;
+  font-size:1em;
+  margin-bottom:2rem;
+  border:1px solid white;
+  text-transform: uppercase;
+  letter-spacing:3px;
+  background:none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width:100%;
+  height:0rem;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    border:1px solid white;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top:-2.1rem;
+    text-transform: uppercase;
+    z-index:2;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 33px 16px;
+    margin-top:0rem;
+    margin-bottom:0rem;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding-left: 25px;
+    color:white;
+    font-size:1em;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #A9A9A9;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+
+
+
+/*---------PRODUCT THUMBNAILS---------*/
+
+/*---ROW1---*/
+
+#wallet {
+  position: relative;
+  background-image: url("../images/wallet_zoom.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+  top: 40px;
+}
+
+#socksset {
+  position: relative;
+  background-image: url("../images/socksset.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+  top: 40px;
+}
+
+#overwatch {
+  position: relative;
+  background-image: url("../images/overwatchsweater.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+  top: 40px;
+}
+
+/*---ROW2---*/
+
+#titanfallmug {
+  position: relative;
+  background-image: url("../images/titanfallmug.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+  top: 40px;
+}
+
+#leaguegame {
+  position: relative;
+  background-image: url("../images/leaguegame.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+  top: 40px;
+}
+
+#haloblaster {
+  position: relative;
+  background-image: url("../images/haloblaster.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+  top: 40px;
+}
+
+
+/*---ROW3---*/
+
+#hearthhat {
+  position: relative;
+  background-image: url("../images/hearthstonehat.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+  top: 40px;
+}
+
+#portalearrings {
+  position: relative;
+  background-image: url("../images/portalearrings.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+  top: 40px;
+}
+
+#zombieplush {
+  position: relative;
+  background-image: url("../images/zombieplush.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+  top: 40px;  
+}
+
+
+/*---------PRODUCT THUMBNAILS---------*/
+
+
+
+
+
+.event_container{
+  background-color: rgba(254, 254, 254, 0.0);
+  height: 100%;
+  width: 100%;
+}
+
+.event_container:hover{
+  background-color: rgba(254, 254, 254, 0.15);
+}
+
+.text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 15px;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+
