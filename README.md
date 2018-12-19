@@ -1,1 +1,0 @@
-# sokymo.github.io
