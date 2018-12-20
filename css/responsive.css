@@ -411,6 +411,7 @@
 
 	.projectcontentbg {
 		margin-right:-1rem;
+		padding-bottom:2rem;
 	}
 
 	.projectcontent2bg{
@@ -498,6 +499,11 @@
 	}
 
 	.plasmaticgraphicsbgwrapper1 {
+		height: calc(100% - 11rem);
+		margin-top:-1rem;
+	}
+
+	.dndbgwrapper1 {
 		height: calc(100% - 11rem);
 		margin-top:-1rem;
 	}

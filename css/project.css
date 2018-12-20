@@ -142,7 +142,7 @@ span.more {
 
 .projectcontent2bg {
 	padding-top:7rem;
-	padding-bottom:8rem;
+	padding-bottom:5rem;
 	margin-left:-1rem;
 	margin-right:-1rem;
 	margin-bottom:-1rem;
@@ -329,7 +329,8 @@ iframe {
 }
 
 .email {
-	font-size:1.7em;
+	font-size:1em;
+	font-weight:bold;
 	color:black;
 }
 

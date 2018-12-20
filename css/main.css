@@ -50,6 +50,11 @@ p {
 	padding-bottom:1rem;
 }
 
+p.references {
+	font-size:12px;
+	line-height: 20px;
+}
+
 img {
 	width:100%;
 	height:100%;
@@ -59,7 +64,7 @@ img {
 h1 {
 	font-family:arcon, sans-serif;
 	font-size:3.2em;
-	color:#1B1B1E;
+	color:black;
 	font-weight:300;
 	letter-spacing:-3px;
 }
@@ -75,7 +80,7 @@ h2 {
 h3 {
 	font-family:arcon, sans-serif;
 	font-size:3.2em;
-	color:#1B1B1E;
+	color:black;
 	font-weight:300;
 	letter-spacing:-3px;
 	padding-top:3rem;
@@ -109,6 +114,10 @@ span.bold {
 
 span.italic {
 	font-style:italic;
+}
+
+span.aboutpage {
+	margin-left:0;
 }
 
 #content {
