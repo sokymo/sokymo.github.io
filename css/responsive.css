@@ -409,6 +409,11 @@
 		padding-bottom:0rem;
 	}
 
+	.projectcontentbg.bottom {
+		margin-right:-1rem;
+		padding-bottom:0rem;
+	}
+
 	.projectcontentbg {
 		margin-right:-1rem;
 		padding-bottom:2rem;
