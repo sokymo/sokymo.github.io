@@ -25,7 +25,7 @@
 }
 
 a, a:visited, a:active{
-	color:white;
+	color:#EDF0F2;
 	text-decoration:none;
 	-webkit-transition-duration: 0.4s; /* Safari */
 	transition-duration: 0.4s;
@@ -53,6 +53,7 @@ p {
 p.references {
 	font-size:12px;
 	line-height: 20px;
+	word-wrap:break-word;
 }
 
 img {

@@ -22,6 +22,37 @@ a.linkcolor:hover {
 	color:#B7CED2;
 }
 
+.navigationnn {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	padding:1.7rem;
+	font-family:'Josefin Slab', sans-serif;
+	font-size:1em;
+	font-weight:800;
+	letter-spacing:0.5px;
+	word-spacing:8rem;
+	text-align:center;
+	background-color:#1A1D24;
+	z-index:100;
+}
+
+.navigationnn {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	padding:1.7rem;
+	font-family:'Josefin Sans', sans-serif;
+	font-size:1.1em;
+	letter-spacing:-1px;
+	word-spacing:8rem;
+	text-align:center;
+	background-color:#1A1D24;
+	z-index:100;
+}
+
 .navigation {
 	position:fixed;
 	top:0;
@@ -141,7 +172,7 @@ span.more {
 }
 
 .projectcontent2bg {
-	padding-top:7rem;
+	padding-top:2em;
 	padding-bottom:5rem;
 	margin-left:-1rem;
 	margin-right:-1rem;
@@ -252,15 +283,15 @@ iframe {
 
 .projectimagestriple {
 	display:inline-block;
-	width:33.3%;
-	
+	width:33%;
 	padding-bottom: 1rem;
 	margin-left:-0.15rem;
+	margin-bottom:3rem;
 }
 
-.projectimagestriple {
+.projectimagesquad {
 	display:inline-block;
-	width:33%;
+	width:24.8%;
 	margin-left:-0.15rem;
 	margin-bottom:3rem;
 }
@@ -300,6 +331,11 @@ iframe {
 
 .anchor2 {
 	margin-top:0;
+}
+
+.anchor3 {
+	float:left;
+	margin-top:-6rem;
 }
 
 .onelist {
@@ -435,123 +471,6 @@ a.email:hover {
 	width:100%;
 	margin-left:-1rem;
 	background-image: url('../images/p9/reset4.png');
-	background-position:center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index:-1;
-}
-
-.pastellebgwrapper1 {
-	position:absolute;
-	height:100%;
-	width:100%;
-	margin-left:-1rem;
-	background-image: url('../images/p1/pastellecover.jpg');
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index:-1;
-}
-
-.pastellebgwrapper2 {
-	position:absolute;
-	height:100%;
-	width:100%;
-	margin-left:-1rem;
-	background-image: url('../images/p1/pastellecardcover.jpg');
-	background-position:-1px center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index:-1;
-}
-
-.pastellebgwrapper3 {
-	position:absolute;
-	height:100%;
-	width:100%;
-	margin-left:-1rem;
-	background-image: url('../images/p1/pastellelogocover.jpg');
-	background-position:center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index:-1;
-}
-
-.rosydaysbgwrapper1 {
-	position:absolute;
-	height:100%;
-	width:100%;
-	margin-left:-1rem;
-	background-image: url('../images/p8/rosydayscover.jpg');
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index:-1;
-}
-
-.rosydaysbgwrapper2 {
-	position:absolute;
-	height:100%;
-	width:100%;
-	margin-left:-1rem;
-	background-image: url('../images/p8/ExperienceMapMorning.jpg');
-	background-position:center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index:-1;
-}
-
-.rosydaysbgwrapper3 {
-	position:absolute;
-	height:100%;
-	width:100%;
-	margin-left:-1rem;
-	background-image: url('../images/p8/colorsnew.jpg');
-	background-position:center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index:-1;
-}
-
-.thegamerbgwrapper1 {
-	position:absolute;
-	height:100%;
-	width:100%;
-	margin-left:-1rem;
-	background-image: url('../images/p7/thegamercover.jpg');
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index:-1;
-}
-
-.thegamerbgwrapper2 {
-	position:absolute;
-	height:100%;
-	width:100%;
-	margin-left:-1rem;
-	background-image: url('../images/p7/scriptcover.jpg');
-	background-position:0px 80px;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index:-1;
-}
-
-.thegamerbgwrapper3 {
-	position:absolute;
-	height:100%;
-	width:100%;
-	margin-left:-1rem;
-	background-image: url('../images/p7/colorcover.jpg');
 	background-position:center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -720,7 +639,7 @@ a.email:hover {
 	height:100%;
 	width:100%;
 	margin-left:-1rem;
-	background-image: url('../images/pdnd/dndbanner2.jpg');
+	background-image: url('../images/pdnd/dndbanner.png');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -746,7 +665,7 @@ a.email:hover {
 	height:100%;
 	width:100%;
 	margin-left:-1rem;
-	background-image: url('../images/pdnd/dndbanner6.png');
+	background-image: url('../images/pdnd/dndbanner7.png');
 	background-position:center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
