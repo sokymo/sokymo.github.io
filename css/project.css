@@ -535,9 +535,9 @@ a.email:hover {
 	height:100%;
 	width:100%;
 	margin-left:-1rem;
-	background-image: url('../images/p6/landsure1.jpeg');
-	background-position:0px 70px;
+	background-image: url('../images/p6/landsurecover3.png');
 	background-attachment: fixed;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index:-1;
