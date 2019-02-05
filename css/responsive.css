@@ -474,25 +474,6 @@
 		margin-top:-1rem;
 	}
 
-	.pastellebgwrapper1 {
-		height: calc(100% - 11rem);
-		margin-top:-1rem;
-	}
-
-	.rosydaysbgwrapper1 {
-		height: calc(100% - 11rem);
-		margin-top:-1rem;
-	}
-
-	.thegamerbgwrapper1 {
-		height: calc(100% - 11rem);
-		margin-top:-1rem;
-	}
-
-	.personalbgwrapper1 {
-		height: calc(100% - 11rem);
-		margin-top:-1rem;
-	}
 
 	.landsurebgwrapper1 {
 		height: calc(100% - 11rem);
@@ -515,6 +496,11 @@
 	}
 
 	.dndbgwrapper1 {
+		height: calc(100% - 11rem);
+		margin-top:-1rem;
+	}
+
+	.linkedinbgwrapper1 {
 		height: calc(100% - 11rem);
 		margin-top:-1rem;
 	}
