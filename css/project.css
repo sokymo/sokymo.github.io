@@ -155,6 +155,11 @@ span.more {
 	background-color:#42A3B4;
 }
 
+.linkedinVideo {
+	margin-top:-3em;
+	padding-bottom:3em;
+}
+
 .projectcontent {
 	width:950px;
 	margin:auto;
@@ -666,6 +671,45 @@ a.email:hover {
 	width:100%;
 	margin-left:-1rem;
 	background-image: url('../images/pdnd/dndbanner7.png');
+	background-position:center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index:-1;
+}
+
+.linkedinbgwrapper1 {
+	position:absolute;
+	height:100%;
+	width:100%;
+	margin-left:-1rem;
+	background-image: url('../images/plinkedin/linkedinbanner.png');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index:-1;
+}
+
+.linkedinbgwrapper2 {
+	position:absolute;
+	height:100%;
+	width:100%;
+	margin-left:-1rem;
+	background-image: url('../images/plinkedin/linkedinbanner2.png');
+	background-position:center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index:-1;
+}
+
+.linkedinbgwrapper3 {
+	position:absolute;
+	height:100%;
+	width:100%;
+	margin-left:-1rem;
+	background-image: url('../images/plinkedin/linkedinbanner3.png');
 	background-position:center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
