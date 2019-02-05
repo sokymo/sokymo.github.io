@@ -441,8 +441,8 @@
 
 	.caption span.projecttitle2 {
 		padding:0rem;
-		padding-left:4rem;
-		padding-right:6rem;
+		padding-left:0.5rem;
+		
 		font-size:1.5em;
 		letter-spacing:7px;
 	}
