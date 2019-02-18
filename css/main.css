@@ -63,27 +63,27 @@ img {
 }
 
 h1 {
-	font-family:arcon, sans-serif;
+	font-family:'Poppins', sans-serif;
 	font-size:3.2em;
 	color:black;
 	font-weight:300;
-	letter-spacing:-3px;
+	letter-spacing:-2px;
 }
 
 h2 {
-	font-family:arcon, sans-serif;
+	font-family:'Poppins', sans-serif;
 	font-size:2.8em;
 	color:#242529;
 	font-weight:300;
-	letter-spacing:-3px;
+	letter-spacing:-2px;
 }
 
 h3 {
-	font-family:arcon, sans-serif;
+	font-family:'Poppins', sans-serif;
 	font-size:3.2em;
 	color:black;
 	font-weight:300;
-	letter-spacing:-3px;
+	letter-spacing:-2px;
 	padding-top:3rem;
 	margin-bottom:2rem;
 }
@@ -139,14 +139,6 @@ span.aboutpage {
 
 .contact {
 	float:left;
-}
-
-#wrapper {
-	position:relative;
-	margin:auto;
-	margin-top:7.5rem;
-	width:1040px;
-	height:624px;
 }
 
 #wrapper.index {
@@ -282,42 +274,6 @@ span.aboutpage {
 	margin-right:2rem;
 	width:55px;
 	height:55px;
-}
-
-.namewrapper {
-    position: absolute;
-    width: 100%;
-	top:40%;
-	text-align:center;
-	color:black;
-	z-index:5;
-}
-
-.namewrapper2 {
-	position:absolute;
-	width:100%;
-	padding:3.5rem;
-	top:0;
-	text-align:center;
-	color:black;
-	z-index:5;
-}
-
-.nametitle {
-	font-family:dolcevita;
-	font-size:6em;
-	letter-spacing:5px;
-	color:#42A3B4;
-	font-weight:300;
-}
-
-.description {
-	margin-top:-2.0rem;
-	font-family:arcon;
-	font-size:1.5em;
-	color:white;
-	font-weight:300;
-	letter-spacing:0.1px;
 }
 
 .image2 {
