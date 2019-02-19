@@ -220,9 +220,10 @@ a.footerbutton:hover {
 	max-width:950px;
 	padding-top:1rem;
 	margin-bottom:3rem;
-	font-family:'Poppins medium', sans-serif;
+	font-family:'Poppins', sans-serif;
 	font-size:16px;
 	color:white;
+	font-weight:400;
 	letter-spacing:0.6px;
 }
 
