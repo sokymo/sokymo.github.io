@@ -357,13 +357,14 @@
 	}
 	
 	.projectnav {
-		font-family:'Poppins light', sans-serif;
+		font-family:'Poppins', sans-serif;
 		text-align:center;
 		margin-top:0rem;
 		margin-bottom:0;
 		font-size:14px;
 		letter-spacing:0.5px;
-		padding:0.5rem;
+		padding:0.7rem;
+		font-weight:300;
 		background-color:#1A1D24;
 		border-bottom:1px solid #101216;
 	}
