@@ -120,7 +120,8 @@
 
 .projheader {
 	font-size:30px;
-	font-family:"Poppins semibold", sans-serif;
+	font-family:"Poppins", sans-serif;
+	font-weight: 600;
 	letter-spacing:2.5px;
 	color:#C3D1DF;
 	line-height:2.3rem;
@@ -129,7 +130,8 @@
 .projsubheader {
 	float:left;
 	font-size:14px;
-	font-family:"Poppins medium", sans-serif;
+	font-family:"Poppins", sans-serif;
+	font-weight:600;
 	letter-spacing:1.2px;
 	color:#C3D1DF;
 	line-height:2.3rem;
@@ -139,7 +141,7 @@
 	float:left;
 	padding-top:1.5rem;
 	font-size:14px;
-	font-family:"Poppins"-, sans-serif;
+	font-family:"Poppins", sans-serif;
 	color:#939DA7;
 	letter-spacing:0.5px;
 }
