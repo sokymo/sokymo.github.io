@@ -209,9 +209,10 @@ a.footerbutton:hover {
 }
 
 .abouttext {
-	font-family:'Poppins regular', sans-serif;
+	font-family:"Poppins", sans-serif;
 	font-size:14px;
 	color:white;
+	font-weight:300;
 	letter-spacing:0.5px;
 }
 
