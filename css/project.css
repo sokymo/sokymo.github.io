@@ -351,11 +351,11 @@ iframe {
 .email {
 	font-size:1em;
 	font-weight:bold;
-	color:#030406;
+	color:#3CADFF;
 }
 
 a.email:visited, a.email:active{
-	color:#030406;
+	color:#3CADFF;
 	text-decoration:none;
 	-webkit-transition-duration: 0.4s; /* Safari */
 	transition-duration: 0.4s;
