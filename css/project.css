@@ -37,7 +37,8 @@ a.linkcolor:hover {
 	width:100%;
 	padding:1.7rem;
 	padding-right:3rem;
-	font-family:"Poppins light", sans-serif;
+	font-family:'Poppins', sans-serif;
+	font-weight: 300;
 	font-size:15px;
 	letter-spacing:1px;
 	word-spacing:3.5rem;
