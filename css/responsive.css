@@ -491,11 +491,13 @@
 		padding-top:8vh;
 	}
 
-	.aboutcaption{
-		width:90%;
-		margin-bottom:4rem;
-		padding:2rem;
-		font-size:1.5em;
-		letter-spacing:7px;
+	.aboutdescription {
+		font-size:16px;
+	}
+
+	.abouttext{
+		font-size:13px;
+		line-height:25px;
+		font-weight:300;
 	}
 }

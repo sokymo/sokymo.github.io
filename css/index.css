@@ -47,7 +47,7 @@
 .firstproj {
 	float: left;
 	width:100%;
-	height:auto;
+	min-height:auto;
 	margin-top:9rem;
 	margin-bottom:3.3rem;
 	padding-left:15rem;
@@ -56,6 +56,7 @@
 	overflow: hidden;
 	box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.19);
 	-webkit-transition: all 1s ease;
+	
 }
 
 .secondproj {
@@ -156,12 +157,6 @@
 	background-size: 150%;
 }
 
-.projimage11 {
-	width:75%;
-	max-height:319px;
-	-webkit-transition: all 1s ease;
-}
-
 .projimage2 {
 	float:right;
 	width:75%;
@@ -170,7 +165,6 @@
 	background-position: 50% calc(50% + 50px);
 	background-repeat: no-repeat;
 	background-size: 160%;
-	-webkit-transition: all 1s ease;
 }
 
 .projimage3 {
@@ -181,7 +175,6 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	-webkit-transition: all 1s ease;
 }
 
 .projimage4 {
@@ -192,7 +185,6 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 110%;
-	-webkit-transition: all 1s ease;
 }
 
 .projimage5 {
@@ -203,10 +195,10 @@
 	background-position: 50% calc(50%);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	-webkit-transition: all 1s ease;
 }
 
 .firstproj:hover, .secondproj:hover, .thirdproj:hover, .fourthproj:hover, .fifthproj:hover {
 	-webkit-transform:scale(1.04);
+	-webkit-transition: all 1s ease;
 
 }
