@@ -94,30 +94,6 @@
 
 @media (max-width:850px){
 
-	.topbarleft {
-		width:50%;
-	}
-
-	.topbarmiddle {
-		width:50%;
-	}
-
-	.topbarright {
-		display:none;
-	}
-
-	.topbarinnerpic {
-		width:50%;
-	}
-
-	.blue1, .blue2, .blue3 {
-		display:none;
-	}
-
-	.blue1half, .blue2half {
-		display:inline;
-	}
-
 	.indexnav {
 		margin-top:8vh;
 	}

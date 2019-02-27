@@ -120,6 +120,7 @@
 }
 
 .projheader {
+	display: block;
 	font-size:30px;
 	font-family:'Poppins', sans-serif;
 	font-weight:600;
@@ -135,7 +136,7 @@
 	font-weight:600;
 	letter-spacing:1.2px;
 	color:#C3D1DF;
-	line-height:2.3rem;
+	line-height:1.3rem;
 }
 
 .projdescription {
