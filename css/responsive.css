@@ -22,12 +22,12 @@
 		text-align: left;
 	}
 
-	.firstproj {
+	.sprung {
 		padding-left:10rem;
 		margin-top:5rem;
 	}
 
-	.secondproj, .thirdproj, .fourthproj, .fifthproj {
+	.firstproj, .secondproj, .thirdproj, .fourthproj, .fifthproj {
 		padding-left:10rem;
 	}
 
@@ -35,7 +35,7 @@
 		width:30%;
 	}
 
-	.projimage1, .projimage2, .projimage3, .projimage4, .projimage5 {
+	.projimagesprung, .projimage1, .projimage2, .projimage3, .projimage4, .projimage5 {
 		width:70%;
 	}
 
@@ -260,12 +260,12 @@
 		font-size:28px;
 	}
 
-	.firstproj {
+	.sprung {
 		margin-top:5rem;
 		padding:0;
 	}
 
-	.secondproj, .thirdproj, .fourthproj, .fifthproj {
+	.firstproj, .secondproj, .thirdproj, .fourthproj, .fifthproj {
 		padding:0;
 	}
 
@@ -274,7 +274,7 @@
 		padding:3rem;
 	}
 
-	.projimage1, .projimage2, .projimage3, .projimage4 {
+	.projimagesprung, .projimage1, .projimage2, .projimage3, .projimage4 {
 		width:100%;
 		margin:0;
 		background-size: 350%;
@@ -429,6 +429,11 @@
 
 	.footerleft, .footerright {
 		display:none;
+	}
+
+	.sprungbgwrapper1 {
+		height: calc(100% - 11rem);
+		margin-top:-1rem;
 	}
 
 

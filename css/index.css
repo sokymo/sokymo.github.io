@@ -44,11 +44,25 @@
 	letter-spacing:0.7px;
 }
 
-.firstproj {
+.sprung {
 	float: left;
 	width:100%;
 	min-height:auto;
 	margin-top:9rem;
+	margin-bottom:3.3rem;
+	padding-left:15rem;
+	color:white;
+	background-color:#16191E;
+	overflow: hidden;
+	box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.19);
+	-webkit-transition: all 1s ease;
+	
+}
+
+.firstproj {
+	float: left;
+	width:100%;
+	min-height:auto;
 	margin-bottom:3.3rem;
 	padding-left:15rem;
 	color:white;
@@ -146,6 +160,16 @@
 	font-family:'Poppins', sans-serif;
 	color:#939DA7;
 	letter-spacing:0.5px;
+}
+
+.projimagesprung {
+	float:right;
+	width:75%;
+	height:360px;
+	background-image: url('../images/psprung/sprungbanner.png');
+	background-position: 50% calc(50% + 50px);
+	background-repeat: no-repeat;
+	background-size: 150%;
 }
 
 .projimage1 {
